@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuro Verde</title>
 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Futuro Verde</h1>
+        <p>Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</p>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#tema">Sobre o Tema</a>
+            <a href="#problema">Problema Ambiental</a>
+            <a href="#quiz">Quiz</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Página Inicial -->
+        <section id="inicio">
+            <h2>Página Inicial</h2>
+
+            <article>
+                <p>
+                    Este site foi criado para conscientizar sobre os impactos
+                    do desmatamento e das queimadas no meio ambiente.
+                </p>
+
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+                    alt="Floresta preservada">
+            </article>
+        </section>
+
+        <!-- Sobre o Tema -->
+        <section id="tema">
+            <h2>Sobre o Tema</h2>
+
+            <article>
+                <p>
+                    O desmatamento é a retirada da vegetação natural de uma área.
+                    As queimadas agravam o problema, prejudicando a fauna, a flora,
+                    os rios e a qualidade do ar.
+                </p>
+            </article>
+        </section>
+
+        <!-- Problema Ambiental -->
+        <section id="problema">
+            <h2>Problema Ambiental</h2>
+
+            <article>
+                <p>
+                    O desmatamento provoca perda da biodiversidade,
+                    aumento da temperatura e destruição de habitats.
+                </p>
+
+                <p>
+                    Preservar as florestas ajuda a manter o equilíbrio ambiental
+                    e garante recursos para as futuras gerações.
+                </p>
+            </article>
+        </section>
+
+        <!-- Gerador de Dicas -->
+        <section>
+            <h2>Gerador de Dicas Sustentáveis</h2>
+
+            <button id="botaoDica">
+                Gerar Dica
+            </button>
+
+            <p id="resultadoDica">
+                Clique no botão para receber uma dica.
+            </p>
+        </section>
+
+        <!-- Quiz -->
+        <section id="quiz">
+            <h2>Teste seus conhecimentos</h2>
+
+            <p>
+                O desmatamento ajuda a preservar o meio ambiente?
+            </p>
+
+            <button onclick="responderQuiz(false)">
+                Sim
+            </button>
+
+            <button onclick="responderQuiz(true)">
+                Não
+            </button>
+
+            <p id="resultadoQuiz"></p>
+        </section>
+
+        <!-- Vídeo -->
+        <section>
+            <h2>Vídeo Educativo</h2>
+
+            <button id="abrirVideo">
+                Assistir Vídeo
+            </button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Projeto Agrinho 2026 - Futuro Verde
+        </p>
+    </footer>
+
+    <!-- Acessibilidade -->
+    <div id="acessibilidade">
+        <button id="aumentarFonte">A+</button>
+        <button id="diminuirFonte">A-</button>
+        <button id="contraste">Contraste</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
